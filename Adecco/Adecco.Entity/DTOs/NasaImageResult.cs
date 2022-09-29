@@ -1,15 +1,12 @@
-using System;
-using System.Collections.Generic;
-
 namespace Adecco.Entity.DTOs
 {
-public class NasaImageResult
+    public class NasaImageResult
 {
-    /// <summary>
-        /// name of the product
+        /// <summary>
+        /// collection object
         /// </summary>
-        public CollationResult collation { get; set; }
+        public CollationResult Collection { get; set; }
 
-        public List<ItemResult> items {get;set;} 
+       
 }
 }

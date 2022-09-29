@@ -16,6 +16,6 @@ namespace Adecco.BusinessLogic.BusinessLogic
         /// </summary>
         /// <param name="searchInput"></param>
         /// <returns></returns>
-        IEnumerable<NasaImageResult> GetImages(SearchInput searchInput);
+        Task<NasaImageResult> GetImages(SearchInput searchInput);
     }
 }

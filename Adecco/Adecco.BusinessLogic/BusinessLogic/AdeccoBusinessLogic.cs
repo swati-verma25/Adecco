@@ -4,6 +4,8 @@ using Adecco.Repository.Repositories;
 using Adecco.Entity.DTOs;
 using Adecco.Http;
 using System.Threading;
+using System.Threading.Tasks;
+
 namespace Adecco.BusinessLogic.BusinessLogic
 {
     /// <summary>
@@ -25,15 +27,9 @@ namespace Adecco.BusinessLogic.BusinessLogic
         /// </summary>
         /// <param name="searchInput"></param>
         /// <returns></returns>
-        public IEnumerable<NasaImageResult> GetImages(SearchInput searchInput)
-        { 
-            List<NasaImageResult> doctors = new List<NasaImageResult>
-            {
-                new NasaImageResult()
-            };
-            return doctors;// Task.FromResult(doctors);
-          //  return  await _nasaService.GetNasaImagesAsync();
-           //  return null ;
+        public async Task<NasaImageResult> GetImages(SearchInput searchInput)
+        {
+                return await _nasaService.GetNasaImagesAsync(searchInput);
         }
     }
 }

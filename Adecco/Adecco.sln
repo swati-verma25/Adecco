@@ -11,10 +11,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Adecco.Entity", "Adecco.Ent
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Adecco.WebApi.Tests", "Adecco.WebApi.Tests\Adecco.WebApi.Tests.csproj", "{540BB2A6-70D0-42BB-9EA6-DCCF1EFE21FF}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Adecco.BusinessLogic", "Adecco.BusinessLogic\Adecco.BusinessLogic.csproj", "{F9486DCA-56FB-40D1-9861-E3FE94EDF463}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Adecco.BusinessLogic", "Adecco.BusinessLogic\Adecco.BusinessLogic.csproj", "{F9486DCA-56FB-40D1-9861-E3FE94EDF463}"
 EndProject
-
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Adecco.Http", "Adecco.Http\Adecco.Http.csproj", "{BE52156C-B463-40A5-8993-6DC69EFC0DC4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Adecco.BusinessLogic.Tests", "Adecco.Businesslogic.Test\Adecco.BusinessLogic.Tests.csproj", "{B702D3CF-AA91-4339-89A6-4D9E334E1610}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -50,6 +51,10 @@ Global
 		{BE52156C-B463-40A5-8993-6DC69EFC0DC4}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{BE52156C-B463-40A5-8993-6DC69EFC0DC4}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{BE52156C-B463-40A5-8993-6DC69EFC0DC4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B702D3CF-AA91-4339-89A6-4D9E334E1610}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B702D3CF-AA91-4339-89A6-4D9E334E1610}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B702D3CF-AA91-4339-89A6-4D9E334E1610}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B702D3CF-AA91-4339-89A6-4D9E334E1610}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

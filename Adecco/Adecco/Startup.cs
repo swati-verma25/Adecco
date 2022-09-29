@@ -41,7 +41,7 @@ namespace Adecco.WebApi
             services.AddCors();
             services.AddHttpClient();
             services.AddHttpClient<NasaService>();
-            services.AddMvc().AddJsonOptions(opt => opt.JsonSerializerOptions.PropertyNamingPolicy = null);
+            services.AddMvc().AddJsonOptions(opt => opt.JsonSerializerOptions.PropertyNamingPolicy = null  );
 
             services.AddHealthChecks();
 

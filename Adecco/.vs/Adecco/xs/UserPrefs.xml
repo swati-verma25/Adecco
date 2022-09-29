@@ -1,0 +1,56 @@
+﻿<Properties StartupConfiguration="{7DFD3600-4C61-4BFC-8BAB-A79B2161C956}|TariffComparison">
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.Workbench ActiveDocument="../../../../../usr/local/share/dotnet/sdk/6.0.401/Sdks/Microsoft.NET.Sdk/targets/Microsoft.NET.Sdk.targets">
+    <Files>
+      <File FileName="Adecco.BusinessLogic/BusinessLogic/AdeccoBusinessLogic.cs" Line="24" Column="1" />
+      <File FileName="Adecco/Controllers/NasaImageController.cs" Line="37" Column="10" />
+      <File FileName="Adecco/appsettings.json" Line="1" Column="1" />
+      <File FileName="Adecco/Adecco.WebApi.csproj" Line="1" Column="1" />
+      <File FileName="Adecco.BusinessLogic/BusinessLogic/IAdeccoBusinessLogic.cs" Line="19" Column="29" />
+      <File FileName="Adecco.Http/NasaService.cs" Line="65" Column="39" />
+      <File FileName="Adecco/Program.cs" Line="21" Column="34" />
+      <File FileName="Adecco.Entity/DTOs/NasaImageResult.cs" Line="6" Column="30" />
+      <File FileName="Adecco.Entity/DTOs/CollationResult.cs" Line="7" Column="25" />
+      <File FileName="Adecco/Startup.cs" Line="56" Column="1" />
+      <File FileName="Adecco.Entity/DTOs/ItemResult.cs" Line="18" Column="1" />
+      <File FileName="Adecco.Entity/DTOs/SearchInput.cs" Line="2" Column="1" />
+      <File FileName="Adecco/GlobalErrorHandling/ExceptionMiddlewareExtensions.cs" Line="34" Column="5" />
+      <File FileName="Adecco.WebApi.Tests/Controllers/NasaImageControllerTest.cs" Line="24" Column="11" />
+      <File FileName="Adecco.Businesslogic.Test/BusinessLogic/TariffBusinessLogicTest.cs" Line="20" Column="10" />
+      <File FileName="../../../../../usr/local/share/dotnet/sdk/6.0.401/Sdks/Microsoft.NET.Sdk/targets/Microsoft.NET.Sdk.targets" Line="176" Column="5" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="Adecco" expanded="True" selected="True">
+            <Node name="Adecco.BusinessLogic" expanded="True">
+              <Node name="BusinessLogic" expanded="True" />
+            </Node>
+            <Node name="Adecco.BusinessLogic.Tests" expanded="True">
+              <Node name="Dependencies" expanded="True">
+                <Node name="ProjectDependencies" expanded="True" />
+              </Node>
+              <Node name="BusinessLogic" expanded="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+      <Pad Id="MonoDevelop.Debugger.WatchPad">
+        <State />
+      </Pad>
+      <Pad Id="MonoDevelop.UnitTesting.TestPad">
+        <State name="__root__">
+          <Node name="Adecco" expanded="True" selected="True">
+            <Node name="Adecco.BusinessLogic.Tests" expanded="True" />
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.ItemProperties.Adecco.WebApi PreferredExecutionTarget="/Applications/Google Chrome.app" />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+</Properties>
