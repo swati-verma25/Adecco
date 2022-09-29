@@ -1,0 +1,37 @@
+<div>
+<div style="width: 100%;text-align: left;">
+  <label class="label">Search Text</label>
+  <input type="text" [(ngModel)]="searchInput.searchText"  id="textName" name="textName" />
+
+  <label class="label"> Media Type</label>
+  <input type="text" [(ngModel)]="searchInput.mediaType" id="mediaType" name="mediaType">
+
+  <label class="label"> Year Start</label>
+  <input type="text" [(ngModel)]="searchInput.startYear"   name="yearStart" id="yearStart">
+
+  <label class="label"> Year End</label>
+  <input type="text" [(ngModel)]="searchInput.endYear" name="yearEnd" id="yearEnd">
+  <div style="float: right;">
+   <button class="button" (click)="searchData()">Search</button></div>
+  </div>
+
+
+<table class="styled-table">
+  <thead>
+      <tr>
+          <th>Href</th>
+          <th>Image</th>
+
+      </tr>
+  </thead>
+  <tbody *ngIf="dataResult" >
+      <tr *ngFor="let data of dataResult">
+          <td >{{data.Href}}</td>
+          <td><span *ngIf="data.imageList && data.imageList.length>0"><img style="width:100px;height:100px;" [src]="data.imageList[0]" (click)="open(data)"></span></td>
+
+      </tr>
+
+      <!-- and so on... -->
+  </tbody>
+</table>
+</div>

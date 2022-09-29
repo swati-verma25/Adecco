@@ -1,0 +1,74 @@
+.styled-table {
+  border-collapse: collapse;
+  margin: 25px 0;
+  font-size: 0.9em;
+  font-family: sans-serif;
+  min-width: 400px;
+  width: 100%;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+}
+.styled-table thead tr {
+  background-color: #009879;
+  color: #ffffff;
+  text-align: left;
+}
+
+.styled-table th,
+.styled-table td {
+    padding: 12px 15px;
+}
+
+.styled-table tbody tr {
+  border-bottom: 1px solid #dddddd;
+}
+
+.styled-table tbody tr:nth-of-type(even) {
+  background-color: #f3f3f3;
+}
+
+.styled-table tbody tr:last-of-type {
+  border-bottom: 2px solid #009879;
+}
+.styled-table tbody tr.active-row {
+  font-weight: bold;
+  color: #009879;
+}
+
+input[type=text] {
+  width: 10%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  border-radius: 5px;
+}
+
+label{
+  padding: 12px 20px;
+  margin: 8px 0;
+}
+
+
+.button {
+  width: 100px;
+  margin: 10px;
+  cursor: pointer;
+  outline: 0;
+  color: #fff;
+  background-color:grey;
+  border-color: grey;
+  display: inline-block;
+  font-weight: 400;
+  line-height: 1.5;
+  text-align: center;
+  border: 1px solid transparent;
+  padding: 6px 12px;
+  font-size: 16px;
+  border-radius: .25rem;
+  transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+  :hover {
+      color: #fff;
+      background-color: #0b5ed7;
+      border-color: #0a58ca;
+  }
+
+}

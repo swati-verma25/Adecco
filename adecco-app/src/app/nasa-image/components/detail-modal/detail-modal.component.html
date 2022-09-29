@@ -1,0 +1,39 @@
+<div class="modal-header">
+  <h4 class="modal-title">{{my_modal_title}}</h4>
+  <button type="button" class="close" aria-label="Close" (click)="close()">
+    <span aria-hidden="true">&times;</span>
+  </button>
+</div>
+<div class="modal-body">
+
+  <table class="styled-table" *ngIf="my_modal_content">
+    <thead>
+        <tr>
+            <th class="width-25">Albem</th>
+            <th class="width-15">Title</th>
+            <th class="width-15">Photographer</th>
+            <th class="width-15">Location</th>
+            <th class="width-15">Nasa Id</th>
+            <th class="width-15">Description</th>
+        </tr>
+    </thead>
+    <tbody *ngIf="my_modal_content">
+        <tr *ngFor="let data of my_modal_content">
+            <td class="width-25">
+              <span  *ngFor="let al of data.Album">{{al}} </span>
+            </td>
+            <td class="width-15"> {{data.Title}}</td>
+            <td class="width-15"> {{data.Photographer}}</td>
+            <td class="width-15"> {{data.Location}}</td>
+            <td class="width-15">{{data.Nasa_id}} </td>
+            <td class="width-15">{{data.Description}} </td>
+
+        </tr>
+
+        <!-- and so on... -->
+    </tbody>
+  </table>
+</div>
+<div class="modal-footer">
+  <button type="button" class="btn btn-outline-dark" (click)="close()">Close</button>
+</div>
